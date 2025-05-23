@@ -1,9 +1,9 @@
 const arg = process.argv[2];
-const num = Number(arg);
+const number = Number(arg);
 
-if (isNaN(num)) {
-  console.log("Not a number");
+if (!isNaN(number) && Number.isInteger(number)) {
+  console.log(`My number is ${number}`);
 }
 else {
-  console.log(`My number is ${num}`);
+  console.log("not a number");
 }
