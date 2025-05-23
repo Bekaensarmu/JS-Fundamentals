@@ -1,10 +1,7 @@
-const line = ["C is fun!", "Python is cool", "Javascript is amazing"];
-let output = "";
+const lines = ["C is fun!", "Python is cool", "Javascript is amazing"];
+let result = "";
 
-for (let i = 0; i < line.length; i++) {
-    output += line[i];
-    if (i < line.length - 1) {
-        output += "\n";
-    }
+for (let i = 0; i < lines.length; i++) {
+    result += lines[i] + "\n";
 }
-console.log(output);
+console.log(result.trim());
