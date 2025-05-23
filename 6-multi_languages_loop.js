@@ -1,4 +1,4 @@
-const lines = ["C is fun!", "Python is cool", "Javascript is amazing"];
+const lines = ["C is fun", "Python is cool", "Javascript is amazing"];
 let result = "";
 
 for (let i = 0; i < lines.length; i++) {
